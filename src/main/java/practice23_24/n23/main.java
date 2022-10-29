@@ -1,4 +1,4 @@
-package practice23_24;
+package practice23_24.n23;
 
 import java.io.*;
 import java.util.Arrays;
@@ -17,7 +17,7 @@ public class main {
         int i = 0;
         HashMap<String, Float> table = new HashMap<>();
         float expenses = 0;
-        CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream("C:\\Users\\semey\\IdeaProjects\\java2\\src\\main\\java\\practice23_24\\csv\\movementList.csv"), "utf-8"));
+        CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream("C:\\Users\\semey\\IdeaProjects\\java2\\src\\main\\java\\practice23_24\\n23\\csv\\movementList.csv"), "utf-8"));
         String[] nextline;
         while((nextline = reader.readNext()) != null){
             if(nextline != null){
